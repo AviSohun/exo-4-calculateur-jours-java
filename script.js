@@ -16,7 +16,7 @@ calculateButton.addEventListener('click', () => {
   let calcMinutes = calcHours * minutesPerHour;
   let calcSeconds = calcMinutes * secondsPerMinute;
   
-  hours.innerText = `${calcHours} hours`;
+  hours.innerText = `${calcHours} heures`;
   minutes.innerText = `${calcMinutes} minutes`;
-  seconds.innerText = `${calcSeconds} seconds`;
+  seconds.innerText = `${calcSeconds} secondes`;
 });
